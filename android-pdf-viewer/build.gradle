@@ -39,7 +39,7 @@ android {
 dependencies {
     implementation 'com.android.support:support-compat:28.0.0'
     // fork that allows user to convert screen position to page position
-    api 'com.github.ahoikapptn-dev:PdfiumAndroid:master-SNAPSHOT'
+    api 'com.github.Lucasq95:PdfiumAndroid:pdfium-android-1.9.0'
 }
 
 apply from: 'bintray.gradle'
